@@ -8,6 +8,7 @@ public class CcTests {
 	private static StringReverse sr = new StringReverse();
 	private static IsUnique iu = new IsUnique();
 	private static FibIterative fi = new FibIterative();
+	private static CountBlackCells cbc = new CountBlackCells();
 	public static void main(String[] args) {
 //		sv.swapValues(3,5); // 5,3
 //		fb.fizzBuzz(); // not writing that here
@@ -15,6 +16,7 @@ public class CcTests {
 //  	iu.getUnique("abcdefghij2345"); // true
 //		sr.reverse("hello"); // "olleh"
 //		fi.fibIt(); // not writing that here
+//		cbc.countCells(3, 4); // 6
 	}
 	
 }
