@@ -9,6 +9,8 @@ public class CcTests {
 	private static IsUnique iu = new IsUnique();
 	private static FibIterative fi = new FibIterative();
 	private static CountBlackCells cbc = new CountBlackCells();
+	private static PageNumbering pn = new PageNumbering();
+
 	public static void main(String[] args) {
 //		sv.swapValues(3,5); // 5,3
 //		fb.fizzBuzz(); // not writing that here
@@ -17,6 +19,7 @@ public class CcTests {
 //		sr.reverse("hello"); // "olleh"
 //		fi.fibIt(); // not writing that here
 //		cbc.countCells(3, 4); // 6
+		pn.pagesNumberingWithInk(80, 1000);
 	}
 	
 }
