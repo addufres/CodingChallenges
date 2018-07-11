@@ -11,6 +11,7 @@ public class CcTests {
 	private static CountBlackCells cbc = new CountBlackCells();
 	private static PageNumbering pn = new PageNumbering();
 	private static FirstDuplicate fd = new FirstDuplicate();
+	private static MixStrings ms = new MixStrings();
 	public static void main(String[] args) {
 //		int[] arr = {1,2,3,4,5,6,8,7,9}; // array for first duplicate 
 //		sv.swapValues(3,5); // 5,3
@@ -22,6 +23,7 @@ public class CcTests {
 //		cbc.countCells(3, 4); // 6
 //		pn.pagesNumberingWithInk(80, 1000); // 419
 //		System.out.println(fd.findFirstDuplicate(arr)); // -1
+//		System.out.println(ms.mixString("abcdddfefg", "zyxwvtudldldld")); // azbycxdwdvdtfuedflgdldld
 	}
 	
 }
